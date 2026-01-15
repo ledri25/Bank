@@ -1,0 +1,291 @@
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .nav{
+        width:100vw;
+        height: 7vh;
+        background-color: brown;
+        display: flex;
+    } 
+    .left{
+        width: 50vw;
+        height: 7vh;
+        background-color:#818181;
+        display: flex;
+        justify-content: space-between;
+    }
+     .PPP{
+          width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        padding-top: 5px;
+        padding-left: 5px; 
+    } 
+    p{
+       font-size: 25px;
+       font-weight: bold;
+       justify-self: center;
+    }
+    .p1{
+        font-size: 25px;
+        font-weight: bold;
+      
+    
+    }
+    input[type="search"] {
+        border: none;
+        background: transparent;
+        margin: 0;
+        padding: 7px 8px;
+        font-size: 14px;
+        color: inherit;
+        border: 1px solid wheat;
+        border-radius: inherit;
+      }
+      
+      input[type="search"]::placeholder {
+        color: #030202;
+      }
+      
+      button[type="submit"] {
+        text-indent: -999px;
+        overflow: hidden;
+        width: 40px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid transparent;
+        border-radius: inherit;
+        background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      
+      button[type="submit"]:hover {
+        opacity: 1;
+      }
+      
+      button[type="submit"]:focus,
+      input[type="search"]:focus {
+        box-shadow: 0 0 3px 0 #1183d6;
+        border-color: #1183d6;
+        outline: none;
+      }
+      .DIV1{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .right{
+        background-color: #818181;
+        width: 50vw;
+        height: 7vh;
+        display: flex;
+        border-left: 1px solid black;
+      }
+      .div2{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+   .heder{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+   }
+   .img1{
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 15px;
+   }
+   .hederleft{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+   }
+    .KLASA{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+   }
+   .hederright{
+    width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 40px;
+        padding-right: 20px;
+   }
+    a{
+       font-size: 30px;
+       text-decoration: none;
+       color: black;
+    }
+    .main{
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        background-color: yellow;
+
+    }
+    .mainleft{
+      width: 50%;
+      height: 60vh;
+      padding-left: 100px;
+      padding-top: 150px;
+    }
+    .mainright{
+        width: 50%;
+        height: 60vh;
+        display: flex;
+                 display: flex;
+      justify-content: space-between;
+    }
+    .img3{
+        display: flex;
+         align-self: center; 
+       justify-self: center;
+    }
+    .big{
+      padding-top: 40px;
+      padding-left: 20px;
+      font-size: 30px;
+      font-weight: bolder
+    }
+    .bg2{
+      padding-top: 20px;
+      padding-left: 80px;
+      font-size: 30px;
+      font-weight: bolder
+    }
+    .bg3{
+      padding-top: 20px;
+      padding-left: 80px;
+      font-size: 30px;
+      font-weight: bolder
+    }
+    .Mi{
+      width: 400px;
+      height: 400px;
+     padding-top: 40px;
+    }
+    .Mi{
+      width: 80%;
+      height: 90%;
+    }
+    .footer{
+      width: 100%;
+      height: 202px;
+      background-color: black;
+    }
+    .s{
+      font-weight: bolder;
+      font-size: 25px;
+    }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 70px 0;
+      height: 260px;
+      width: 100vw;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(219, 205, 5); 
+    border-radius: 10px;
+  }
+  

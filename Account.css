@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 90%;
+    height: 100vh;
+    margin: 0px  5%;
+    background-color: yellow;
+}
+
+.nav {
+   
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body {
+    margin-top: 16px;
+    width: 100%;
+    height: 83%;
+    display: flex;
+}
+.navright {
+  
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+   
+    
+}
+.bodyleft{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+     gap: 10px; 
+     margin: 0px 10px;
+
+}
+.bodyright{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 10px;
+}
+.box{
+    width: 90%;
+    height: 15%;
+    
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 5px gray ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.container{
+    width: 100%;
+    height: 20%;
+    
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 5px gray ; 
+}
+.titulli{
+    font-size: 30px;
+    font-weight: 600;
+}
+.grey{
+    color: gray;
+}
+.img{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 7px 30px -10px rgba(97, 97, 97, 0.7);
+
+}
+.icon{
+    width: 70px;
+    height: 70px;
+     background-color: pink; 
+    border-radius: 35px;
+   
+}
+._titulli{
+    font-size: 20px;
+    font-weight: bold;
+}
+.done{
+    color: rgb(1, 1, 207);
+   border:1px solid rgb(1, 1, 207) ;
+   width: 45px;
+   border-radius: 5px;
+   padding: 0 15px;
+}
+.priceR{
+    color: red;
+    font-size: 20px;
+    justify-self: flex-end;
+}
+.combo{
+  display: flex;
+  gap: 10px;
+}
+.bill, .done{
+    display: inline;
+}
+.priceG{
+    color:rgb(2, 165, 2);
+    font-size: 20px;
+    justify-self: flex-end;
+}
+.P{
+    color: rgb(255, 187, 0);
+   border:1px solid rgb(255, 187, 0) ;
+   width: 100px;
+   border-radius: 5px;
+   padding: 0 15px;
+   display: inline;
+}
+.container{
+    background-color: blue;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.price{
+    font-size: 40px;
+    font-weight: bold;
+    display: inline;
+}
+.primary{
+    border: 1px solid white;
+    width: 70px;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline;
+    margin-left: 10px;
+}
+.shigjeta{
+    width: 50px;
+}
+.exp{
+    display: flex;
+    gap: 15px;
+}
+.cardinfo{
+    display: flex;
+    box-shadow: 0px 0px 30px 4px rgb(192, 192, 192) ;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+}
+.be{
+    width: 80px;
+}
+.active{
+    background-color: greenyellow;
+    color: green;
+    padding: 3px 7px;
+}
+.black{
+    color: black;
+}
+.grey{
+    color: gray;
+}
+.CPL{
+width: 80px;
+height: 80px;
+ margin-right: 900px; 
+margin-top: 20px;
+border-radius: 15px;
+}
+hr {
+    border-top: 2px solid red;
+  }
+  .pp1{
+    color: red;
+    font-size: 15px;
+ margin-left: 700px;
+  }
